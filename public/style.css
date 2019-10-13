@@ -242,9 +242,9 @@ footer{
 }
 /*video and title*/
 #video-container{
-  height:525px;
+  height:535px;
   width:100%;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
         -ms-animation: fadein 2s; /* Internet Explorer */
