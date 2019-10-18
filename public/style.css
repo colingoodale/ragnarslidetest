@@ -241,6 +241,7 @@ footer{
   background-color:59;
 }
 /*video and title*/
+
 #video-container{
   height:535px;
   width:100%;
@@ -251,6 +252,47 @@ footer{
          -o-animation: fadein 2s; /* Opera < 12.1 */
             animation: fadein 2s;
 }
+@media(max-width:3000px){
+  #video-container{
+    height:800px;
+  }
+}
+@media(max-width:2500px){
+  #video-container{
+    height:700px;
+  }
+}
+@media(max-width:1525px){
+  #video-container{
+    height:600px;
+  }
+}
+@media(max-width:1300px){
+  #video-container{
+    height:500px;
+  }
+}
+@media(max-width:770px){
+  #video-container{
+    height: 450px;
+  }
+}
+@media (max-width:450px){
+  #video-container{
+    height:300px;
+  }
+}
+@media(max-width:400px){
+  #video-container{
+    height:250px;
+  }
+}
+@media (max-width:350px){
+  #video-container{
+    height: 225px;
+  }
+}
+
 @keyframes fadein {
   from { opacity: 0; }
   to   { opacity: 1; }
